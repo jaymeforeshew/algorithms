@@ -1,3 +1,4 @@
+# Write a function to determine if two strings are permutations of one another
 def are_strings_pemutations(str1, str2)
   character_usage = {}
   str1.split('').each do |char|
